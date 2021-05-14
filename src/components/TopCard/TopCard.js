@@ -4,14 +4,16 @@ import medal1 from '../../assets/img/medal1.png'
 import medal2 from '../../assets/img/medal2.png'
 import medal3 from '../../assets/img/medal3.png'
 
-const TopCard = ({ src, position, name }) => {
+const TopCard = ({ src, position, name, slug, showPosition = true, onClick = () => { } }) => {
     return (
-        <div className={styles["container"]}>
+        <div onClick={() => onClick(slug)} className={styles["container"]}>
             <img className={styles["image"]} src={src} />
             <div className={styles["name"]}>
                 <span>{name}</span>
             </div>
-            <img className={styles["medal"]} src={getMedal(position)} />
+            {showPosition &&
+                <img className={styles["medal"]} src={getMedal(position)} />
+            }
         </div>
     )
 }

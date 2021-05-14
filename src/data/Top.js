@@ -7,16 +7,19 @@ export const dataMock = [
     {
         name: "Martuchis Ramirez",
         image: Card,
-        position: 1
+        position: 1,
+        slug: "martha"
     },
     {
         name: "Lord Petrozky",
         image: Card1,
-        position: 2
+        position: 2,
+        slug: "petro"
     },
     {
         name: "Alvarito Uribe",
         image: Card2,
-        position: 3
+        position: 3,
+        slug: "uribe"
     }
 ]

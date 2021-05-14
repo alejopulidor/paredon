@@ -1,9 +1,11 @@
 .container {
   margin: 20px;
   height: 220px;
+  max-width: 300px;
   position: relative;
   border-radius: 10px;
   overflow: hidden;
+  cursor: pointer;
   .image {
     object-fit: cover;
     height: 100%;

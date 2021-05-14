@@ -1,17 +1,37 @@
 import React from 'react';
-import HeaderNavBar from '../../components/HeaderNavBar/HeaderNavBar';
-import TopCard from '../../components/TopCard/TopCard';
-import { dataMock } from '../../data/Top';
+
 import styles from './HomePage.module.scss';
+
+import { useHistory } from 'react-router';
+import { Link } from 'react-router-dom';
+
+
+import { dataMockSecondary } from '../../data/Secondaries';
+import { dataMock } from '../../data/Top';
+
+import HeaderNavBar from '../../components/HeaderNavBar/HeaderNavBar';
+import SecondaryCard from '../../components/SecondaryCard/SecondaryCard';
+import TopCard from '../../components/TopCard/TopCard';
 
 
 
 const HomePage = () => {
+    const history = useHistory();
     return (
         <div>
-            <HeaderNavBar />
+            <div style={{ display: "flex", justifyContent: "space-between", margin: "20px 20px 0px 20px" }}>
+                <span>Los más mentirosos</span>
+                <Link>Ver más</Link>
+            </div>
             <div className={styles["top-cards"]}>
-                {dataMock.map(item => <TopCard src={item.image} name={item.name} position={item.position} />)}
+                {dataMock.map(item => <TopCard onClick={(slug) => { history.push(`/${slug}`) }} key={item.name} slug={item.slug} src={item.image} name={item.name} position={item.position} />)}
+            </div>
+            <div style={{ display: "flex", justifyContent: "space-between", margin: "20px 20px 0px 20px" }}>
+                <span>Top del Mes</span>
+                <Link>Ver más</Link>
+            </div>
+            <div className={styles["top-cards"]}>
+                {dataMockSecondary.map(item => <SecondaryCard key={item.name} slug={item.slug} src={item.image} />)}
             </div>
         </div>
 
