@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "./static/css/main.e8dab71b.chunk.css",
-    "main.js": "./static/js/main.1183c316.chunk.js",
-    "main.js.map": "./static/js/main.1183c316.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.23d0cc74.js",
-    "runtime-main.js.map": "./static/js/runtime-main.23d0cc74.js.map",
-    "static/js/2.92d17e51.chunk.js": "./static/js/2.92d17e51.chunk.js",
-    "static/js/2.92d17e51.chunk.js.map": "./static/js/2.92d17e51.chunk.js.map",
-    "index.html": "./index.html",
-    "static/css/main.e8dab71b.chunk.css.map": "./static/css/main.e8dab71b.chunk.css.map",
-    "static/js/2.92d17e51.chunk.js.LICENSE.txt": "./static/js/2.92d17e51.chunk.js.LICENSE.txt",
-    "static/media/Card-1.f0f68b16.png": "./static/media/Card-1.f0f68b16.png",
-    "static/media/Card-2.ba1ef30a.png": "./static/media/Card-2.ba1ef30a.png",
-    "static/media/Card-3.932c8d88.png": "./static/media/Card-3.932c8d88.png",
-    "static/media/Card-4.83ba61dd.png": "./static/media/Card-4.83ba61dd.png",
-    "static/media/Card-5.ef9c77e4.png": "./static/media/Card-5.ef9c77e4.png",
-    "static/media/Card-6.8d4eeed4.png": "./static/media/Card-6.8d4eeed4.png",
-    "static/media/Card-7.2e660bce.png": "./static/media/Card-7.2e660bce.png",
-    "static/media/Card-8.48090eea.png": "./static/media/Card-8.48090eea.png",
-    "static/media/Card-9.352cb92a.png": "./static/media/Card-9.352cb92a.png",
-    "static/media/Card.e36fe537.png": "./static/media/Card.e36fe537.png"
+    "main.css": "/paredon/static/css/main.e8dab71b.chunk.css",
+    "main.js": "/paredon/static/js/main.f72d7ef6.chunk.js",
+    "main.js.map": "/paredon/static/js/main.f72d7ef6.chunk.js.map",
+    "runtime-main.js": "/paredon/static/js/runtime-main.a7d2126a.js",
+    "runtime-main.js.map": "/paredon/static/js/runtime-main.a7d2126a.js.map",
+    "static/js/2.92d17e51.chunk.js": "/paredon/static/js/2.92d17e51.chunk.js",
+    "static/js/2.92d17e51.chunk.js.map": "/paredon/static/js/2.92d17e51.chunk.js.map",
+    "index.html": "/paredon/index.html",
+    "static/css/main.e8dab71b.chunk.css.map": "/paredon/static/css/main.e8dab71b.chunk.css.map",
+    "static/js/2.92d17e51.chunk.js.LICENSE.txt": "/paredon/static/js/2.92d17e51.chunk.js.LICENSE.txt",
+    "static/media/Card-1.f0f68b16.png": "/paredon/static/media/Card-1.f0f68b16.png",
+    "static/media/Card-2.ba1ef30a.png": "/paredon/static/media/Card-2.ba1ef30a.png",
+    "static/media/Card-3.932c8d88.png": "/paredon/static/media/Card-3.932c8d88.png",
+    "static/media/Card-4.83ba61dd.png": "/paredon/static/media/Card-4.83ba61dd.png",
+    "static/media/Card-5.ef9c77e4.png": "/paredon/static/media/Card-5.ef9c77e4.png",
+    "static/media/Card-6.8d4eeed4.png": "/paredon/static/media/Card-6.8d4eeed4.png",
+    "static/media/Card-7.2e660bce.png": "/paredon/static/media/Card-7.2e660bce.png",
+    "static/media/Card-8.48090eea.png": "/paredon/static/media/Card-8.48090eea.png",
+    "static/media/Card-9.352cb92a.png": "/paredon/static/media/Card-9.352cb92a.png",
+    "static/media/Card.e36fe537.png": "/paredon/static/media/Card.e36fe537.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.23d0cc74.js",
+    "static/js/runtime-main.a7d2126a.js",
     "static/js/2.92d17e51.chunk.js",
     "static/css/main.e8dab71b.chunk.css",
-    "static/js/main.1183c316.chunk.js"
+    "static/js/main.f72d7ef6.chunk.js"
   ]
 }
