@@ -18,6 +18,7 @@ const NewItem = ({ item }) => {
             <div>
                 {getIcon(item.social)}
                 <p>{item.text}</p>
+                <a href={item.url} target="_blank">{item.url}</a>
             </div>
             <Status status={item.status} />
         </div>
