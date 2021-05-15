@@ -9,7 +9,6 @@ import { Link } from 'react-router-dom';
 import { dataMockSecondary } from '../../data/Secondaries';
 import { dataMock } from '../../data/Top';
 
-import HeaderNavBar from '../../components/HeaderNavBar/HeaderNavBar';
 import SecondaryCard from '../../components/SecondaryCard/SecondaryCard';
 import TopCard from '../../components/TopCard/TopCard';
 

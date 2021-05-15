@@ -8,7 +8,7 @@ export const dataMock = [
         name: "Martuchis Ramirez",
         image: Card,
         position: 1,
-        slug: "martha"
+        slug: "martha",
     },
     {
         name: "Lord Petrozky",
