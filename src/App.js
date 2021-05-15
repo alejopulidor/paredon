@@ -1,7 +1,7 @@
 import HomePage from "./pages/HomePage/HomePage";
 
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
 } from "react-router-dom";
